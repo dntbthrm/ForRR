@@ -6,9 +6,10 @@ namespace ForRR.ViewModels
     {
         public MainWindowViewModel()
         {
-            DateCheck = new DateCheckViewModel();
+            Clock = new ClockViewModel();
         }
-        public DateCheckViewModel DateCheck { get; }
+        public ClockViewModel Clock { get; }
+        
     }
 }
 
@@ -22,3 +23,10 @@ namespace ForRR.ViewModels
    }
    
    public ToDoListViewModel ToDoList { get; }*/
+   
+//проверка возраста
+/* public MainWindowViewModel()
+   {
+   DateCheck = new DateCheckViewModel();
+   }
+   public DateCheckViewModel DateCheck { get; } */
