@@ -6,9 +6,9 @@ namespace ForRR.ViewModels
     {
         public MainWindowViewModel()
         {
-            ImageReader = new ImageReaderViewModel();
+            ImageLoader = new ImageLoaderViewModel();
         }
-        public ImageReaderViewModel ImageReader { get; }
+        public ImageLoaderViewModel ImageLoader { get; }
     }
 }
 
@@ -85,3 +85,10 @@ namespace ForRR.ViewModels
    PointDraw = new PointDrawViewModel();
    }
    public PointDrawViewModel PointDraw { get; }*/
+   
+// чтение фоток из папки
+/*public MainWindowViewModel()
+   {
+   ImageReader = new ImageReaderViewModel();
+   }
+   public ImageReaderViewModel ImageReader { get; }*/

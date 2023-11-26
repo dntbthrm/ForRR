@@ -33,6 +33,9 @@ build_metadata.AdditionalFiles.SourceItemGroup = AvaloniaXaml
 [/Users/tatiana/RiderProjects/ForRR/ForRR/Views/FileReaderView.axaml]
 build_metadata.AdditionalFiles.SourceItemGroup = AvaloniaXaml
 
+[/Users/tatiana/RiderProjects/ForRR/ForRR/Views/ImageLoaderView.axaml]
+build_metadata.AdditionalFiles.SourceItemGroup = AvaloniaXaml
+
 [/Users/tatiana/RiderProjects/ForRR/ForRR/Views/ImageReaderView.axaml]
 build_metadata.AdditionalFiles.SourceItemGroup = AvaloniaXaml
 

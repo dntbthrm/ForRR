@@ -11,7 +11,7 @@
         x:DataType="vm:MainWindowViewModel"
         Icon="/Assets/avalonia-logo.ico"
         Title="ForRR">
-        <views:ImageReaderView DataContext="{Binding ImageReader}"/>
+        <views:ImageLoaderView DataContext="{Binding ImageLoader}"/>
         
 </Window>
 
@@ -23,3 +23,4 @@
 <!-- <views:TextDiffView DataContext="{Binding TextDiff}"/> это для различий в тексте -->
 <!-- <views:CountWordsView DataContext="{Binding CountWords}"/> это для подсчета слов-->
 <!-- <views:PointDrawView DataContext="{Binding PointDraw}"/> это для рисования точки -->
+<!-- <views:ImageReaderView DataContext="{Binding ImageReader}"/> это для чтения фоток из папки -->
