@@ -10,11 +10,10 @@
         x:DataType="vm:MainWindowViewModel"
         Icon="/Assets/avalonia-logo.ico"
         Title="ForRR">
-        <views:ClockView DataContext="{Binding Clock}"/>
-    
-    
-
+        <views:WordPartSearchView DataContext="{Binding WordPart}"/>
+        
 </Window>
 
 <!--<views:ToDoListView DataContext="{Binding ToDoList}"/> это для списка дел--> 
 <!-- <views:DateCheckView DataContext="{Binding DateCheck}"/> это для проверки возраста -->
+<!-- <views:ClockView DataContext="{Binding Clock}"/> это для часов-->

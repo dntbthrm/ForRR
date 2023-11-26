@@ -6,9 +6,9 @@ namespace ForRR.ViewModels
     {
         public MainWindowViewModel()
         {
-            Clock = new ClockViewModel();
+            WordPart = new WordPartSearchViewModel();
         }
-        public ClockViewModel Clock { get; }
+        public WordPartSearchViewModel WordPart { get; }
         
     }
 }
@@ -30,3 +30,10 @@ namespace ForRR.ViewModels
    DateCheck = new DateCheckViewModel();
    }
    public DateCheckViewModel DateCheck { get; } */
+   
+//часы
+/*public MainWindowViewModel()
+   {
+   Clock = new ClockViewModel();
+   }
+   public ClockViewModel Clock { get; }*/

@@ -1,0 +1,18 @@
+<UserControl xmlns="https://github.com/avaloniaui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             xmlns:vm="using:ForRR.ViewModels" 
+             mc:Ignorable="d" d:DesignWidth="800" d:DesignHeight="450"
+             x:Class="ForRR.Views.WordPartSearchView"
+             x:DataType="vm:WordPartSearchViewModel">
+    <StackPanel>
+         
+            <TextBox x:Name="SearchTextBox" Margin="10" Text="{Binding TextToSearch}"/>
+            
+            <Button Content="Найти слова" Command="{Binding FindWords}"/>
+            <TextBlock Text = "Найденные слова"/>
+            <ListBox  ItemsSource="{Binding FoundList}"/>
+            
+    </StackPanel>
+</UserControl>
