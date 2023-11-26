@@ -6,10 +6,9 @@ namespace ForRR.ViewModels
     {
         public MainWindowViewModel()
         {
-            TextDiff = new TextDiffViewModel();
+            CountWords = new CountWordsViewModel();
         }
-        public TextDiffViewModel TextDiff{ get; }
-        
+        public CountWordsViewModel CountWords { get; }
     }
 }
 
@@ -62,3 +61,14 @@ namespace ForRR.ViewModels
    FileReader = new FileReaderViewModel();
    }
    public FileReaderViewModel FileReader{ get; }*/
+   
+// различия текстов
+/* public class MainWindowViewModel : ViewModelBase, INotifyPropertyChanged
+   {
+   public MainWindowViewModel()
+   {
+   TextDiff = new TextDiffViewModel();
+   }
+   public TextDiffViewModel TextDiff{ get; }
+   
+   }*/

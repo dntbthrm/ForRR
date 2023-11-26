@@ -10,7 +10,7 @@
         x:DataType="vm:MainWindowViewModel"
         Icon="/Assets/avalonia-logo.ico"
         Title="ForRR">
-        <views:TextDiffView DataContext="{Binding TextDiff}"/>
+        <views:CountWordsView DataContext="{Binding CountWords}"/>
         
 </Window>
 
@@ -19,3 +19,4 @@
 <!-- <views:ClockView DataContext="{Binding Clock}"/> это для часов-->
 <!--<views:WordPartSearchView DataContext="{Binding WordPart}"/> это для поиска слов-->
 <!-- <views:AdditionView DataContext="{Binding Addition}"/> это для сложения чисел -->
+<!-- <views:TextDiffView DataContext="{Binding TextDiff}"/> это для различий в тексте -->
