@@ -6,9 +6,9 @@ namespace ForRR.ViewModels
     {
         public MainWindowViewModel()
         {
-            CountWords = new CountWordsViewModel();
+            PointDraw = new PointDrawViewModel();
         }
-        public CountWordsViewModel CountWords { get; }
+        public PointDrawViewModel PointDraw { get; }
     }
 }
 
@@ -71,4 +71,10 @@ namespace ForRR.ViewModels
    }
    public TextDiffViewModel TextDiff{ get; }
    
-   }*/
+   }*/ 
+// счетчик слов
+/* public MainWindowViewModel()
+   {
+   CountWords = new CountWordsViewModel();
+   }
+   public CountWordsViewModel CountWords { get; }*/

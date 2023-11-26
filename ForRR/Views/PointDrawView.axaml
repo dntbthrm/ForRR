@@ -1,0 +1,14 @@
+<UserControl xmlns="https://github.com/avaloniaui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             xmlns:vm="using:ForRR.ViewModels"
+             xmlns:sys="clr-namespace:System;assembly=System.Runtime"
+             mc:Ignorable="d" d:DesignWidth="800" d:DesignHeight="450"
+             x:Class="ForRR.Views.PointDrawView"
+             x:DataType="vm:PointDrawViewModel">
+    
+    <Canvas PointerPressed="CreatePoint" Background="White">
+        <Ellipse x:Name="dot" Fill="Red" Width="10" Height="10" Canvas.Left="0" Canvas.Top="0" Opacity="0"/>
+    </Canvas>
+</UserControl>

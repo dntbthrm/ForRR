@@ -5,12 +5,13 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:views = "clr-namespace:ForRR.Views"
         xmlns:viewModels="clr-namespace:ForRR.ViewModels"
+        xmlns:global="clr-namespace:"
         mc:Ignorable="d" d:DesignWidth="800" d:DesignHeight="450"
         x:Class="ForRR.Views.MainWindow"
         x:DataType="vm:MainWindowViewModel"
         Icon="/Assets/avalonia-logo.ico"
         Title="ForRR">
-        <views:CountWordsView DataContext="{Binding CountWords}"/>
+        <views:PointDrawView DataContext="{Binding PointDraw}"/>
         
 </Window>
 
@@ -20,3 +21,4 @@
 <!--<views:WordPartSearchView DataContext="{Binding WordPart}"/> это для поиска слов-->
 <!-- <views:AdditionView DataContext="{Binding Addition}"/> это для сложения чисел -->
 <!-- <views:TextDiffView DataContext="{Binding TextDiff}"/> это для различий в тексте -->
+<!-- <views:CountWordsView DataContext="{Binding CountWords}"/> это для подсчета слов-->
