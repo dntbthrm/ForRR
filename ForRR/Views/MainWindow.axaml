@@ -11,7 +11,7 @@
         x:DataType="vm:MainWindowViewModel"
         Icon="/Assets/avalonia-logo.ico"
         Title="ForRR">
-        <views:PointDrawView DataContext="{Binding PointDraw}"/>
+        <views:ImageReaderView DataContext="{Binding ImageReader}"/>
         
 </Window>
 
@@ -22,3 +22,4 @@
 <!-- <views:AdditionView DataContext="{Binding Addition}"/> это для сложения чисел -->
 <!-- <views:TextDiffView DataContext="{Binding TextDiff}"/> это для различий в тексте -->
 <!-- <views:CountWordsView DataContext="{Binding CountWords}"/> это для подсчета слов-->
+<!-- <views:PointDrawView DataContext="{Binding PointDraw}"/> это для рисования точки -->

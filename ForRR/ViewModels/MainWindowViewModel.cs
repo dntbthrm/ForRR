@@ -6,9 +6,9 @@ namespace ForRR.ViewModels
     {
         public MainWindowViewModel()
         {
-            PointDraw = new PointDrawViewModel();
+            ImageReader = new ImageReaderViewModel();
         }
-        public PointDrawViewModel PointDraw { get; }
+        public ImageReaderViewModel ImageReader { get; }
     }
 }
 
@@ -78,3 +78,10 @@ namespace ForRR.ViewModels
    CountWords = new CountWordsViewModel();
    }
    public CountWordsViewModel CountWords { get; }*/
+   
+// рисование точки
+/*public MainWindowViewModel()
+   {
+   PointDraw = new PointDrawViewModel();
+   }
+   public PointDrawViewModel PointDraw { get; }*/
