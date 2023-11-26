@@ -1,0 +1,18 @@
+<UserControl xmlns="https://github.com/avaloniaui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             xmlns:vm="using:ForRR.ViewModels"
+             xmlns:sys="clr-namespace:System;assembly=System.Runtime"
+             mc:Ignorable="d" d:DesignWidth="800" d:DesignHeight="450"
+             x:Class="ForRR.Views.PagingView"
+             x:DataType="vm:PagingViewModel">
+    <StackPanel >
+        <ListBox x:Name="ItemsListBox" Margin="10" ItemsSource="{Binding PageItems}" SelectionMode="Single" Height="200"/>
+        <StackPanel Orientation="Horizontal" HorizontalAlignment="Center" VerticalAlignment="Bottom">
+            <Button Content="Назад" Margin="5" Command="{Binding GoBack}" />
+            <TextBlock Text="{Binding CurrentPage}" Margin="5"/>
+            <Button Content="Вперед" Margin="5" Command="{Binding GoNext}" />
+        </StackPanel>
+    </StackPanel>
+</UserControl>

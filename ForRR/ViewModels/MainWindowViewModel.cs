@@ -6,9 +6,9 @@ namespace ForRR.ViewModels
     {
         public MainWindowViewModel()
         {
-            MoveItems = new MoveItemsViewModel();
+            Paging = new PagingViewModel();
         }
-        public MoveItemsViewModel MoveItems { get; }
+        public PagingViewModel Paging { get; }
     }
 }
 
@@ -106,3 +106,10 @@ namespace ForRR.ViewModels
    ColorScreen = new ColorScreenViewModel();
    }
    public ColorScreenViewModel ColorScreen { get; }*/
+   
+// перемещение элемента списка вверх
+/*public MainWindowViewModel()
+   {
+   MoveItems = new MoveItemsViewModel();
+   }
+   public MoveItemsViewModel MoveItems { get; }*/
