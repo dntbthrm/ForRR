@@ -7,12 +7,8 @@
              x:Class="ForRR.Views.WordPartSearchView"
              x:DataType="vm:WordPartSearchViewModel">
     <StackPanel>
-         
-            <TextBox x:Name="SearchTextBox" Margin="10" Text="{Binding TextToSearch}"/>
-            
-            <Button Content="Найти слова" Command="{Binding FindWords}"/>
+            <TextBox x:Name="SearchTextBox" Margin="10" TextChanged="SearchBox_Changed"/>
             <TextBlock Text = "Найденные слова"/>
             <ListBox  ItemsSource="{Binding FoundList}"/>
-            
     </StackPanel>
 </UserControl>
