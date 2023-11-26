@@ -10,7 +10,7 @@
         x:DataType="vm:MainWindowViewModel"
         Icon="/Assets/avalonia-logo.ico"
         Title="ForRR">
-        <views:AdditionView DataContext="{Binding Addition}"/>
+        <views:FileReaderView DataContext="{Binding FileReader}"/>
         
 </Window>
 
@@ -18,3 +18,4 @@
 <!-- <views:DateCheckView DataContext="{Binding DateCheck}"/> это для проверки возраста -->
 <!-- <views:ClockView DataContext="{Binding Clock}"/> это для часов-->
 <!--<views:WordPartSearchView DataContext="{Binding WordPart}"/> это для поиска слов-->
+<!-- <views:AdditionView DataContext="{Binding Addition}"/> это для сложения чисел -->

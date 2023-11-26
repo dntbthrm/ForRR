@@ -6,9 +6,9 @@ namespace ForRR.ViewModels
     {
         public MainWindowViewModel()
         {
-            Addition = new AdditionViewModel();
+            FileReader = new FileReaderViewModel();
         }
-        public AdditionViewModel Addition{ get; }
+        public FileReaderViewModel FileReader{ get; }
         
     }
 }
@@ -48,3 +48,10 @@ namespace ForRR.ViewModels
    public WordPartSearchViewModel WordPart { get; }
    
    }*/
+   
+//сложение чисел 
+/*public MainWindowViewModel()
+   {
+   Addition = new AdditionViewModel();
+   }
+   public AdditionViewModel Addition{ get; }*/

@@ -27,6 +27,9 @@ build_metadata.AdditionalFiles.SourceItemGroup = AvaloniaXaml
 [/Users/tatiana/RiderProjects/ForRR/ForRR/Views/DateCheckView.axaml]
 build_metadata.AdditionalFiles.SourceItemGroup = AvaloniaXaml
 
+[/Users/tatiana/RiderProjects/ForRR/ForRR/Views/FileReaderView.axaml]
+build_metadata.AdditionalFiles.SourceItemGroup = AvaloniaXaml
+
 [/Users/tatiana/RiderProjects/ForRR/ForRR/Views/MainWindow.axaml]
 build_metadata.AdditionalFiles.SourceItemGroup = AvaloniaXaml
 
