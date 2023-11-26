@@ -10,7 +10,7 @@
         x:DataType="vm:MainWindowViewModel"
         Icon="/Assets/avalonia-logo.ico"
         Title="ForRR">
-        <views:FileReaderView DataContext="{Binding FileReader}"/>
+        <views:TextDiffView DataContext="{Binding TextDiff}"/>
         
 </Window>
 

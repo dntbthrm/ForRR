@@ -6,9 +6,9 @@ namespace ForRR.ViewModels
     {
         public MainWindowViewModel()
         {
-            FileReader = new FileReaderViewModel();
+            TextDiff = new TextDiffViewModel();
         }
-        public FileReaderViewModel FileReader{ get; }
+        public TextDiffViewModel TextDiff{ get; }
         
     }
 }
@@ -55,3 +55,10 @@ namespace ForRR.ViewModels
    Addition = new AdditionViewModel();
    }
    public AdditionViewModel Addition{ get; }*/
+   
+//чтение из файла 
+/*public MainWindowViewModel()
+   {
+   FileReader = new FileReaderViewModel();
+   }
+   public FileReaderViewModel FileReader{ get; }*/
