@@ -11,7 +11,7 @@
         x:DataType="vm:MainWindowViewModel"
         Icon="/Assets/avalonia-logo.ico"
         Title="ForRR">
-        <views:ColorScreenView DataContext="{Binding ColorScreen}"/>
+        <views:MoveItemsView DataContext="{Binding MoveItems}"/>
         
 </Window>
 
@@ -25,3 +25,4 @@
 <!-- <views:PointDrawView DataContext="{Binding PointDraw}"/> это для рисования точки -->
 <!-- <views:ImageReaderView DataContext="{Binding ImageReader}"/> это для чтения фоток из папки -->
 <!-- <views:ImageLoaderView DataContext="{Binding ImageLoader}"/> это для чтения фотки по ссылки -->
+<!-- <views:ColorScreenView DataContext="{Binding ColorScreen}"/> это для покраски экрана-->

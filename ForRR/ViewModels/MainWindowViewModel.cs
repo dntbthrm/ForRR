@@ -6,9 +6,9 @@ namespace ForRR.ViewModels
     {
         public MainWindowViewModel()
         {
-            ColorScreen = new ColorScreenViewModel();
+            MoveItems = new MoveItemsViewModel();
         }
-        public ColorScreenViewModel ColorScreen { get; }
+        public MoveItemsViewModel MoveItems { get; }
     }
 }
 
@@ -99,3 +99,10 @@ namespace ForRR.ViewModels
    ImageLoader = new ImageLoaderViewModel();
    }
    public ImageLoaderViewModel ImageLoader { get; }*/
+
+// покраска экрана
+/*public MainWindowViewModel()
+   {
+   ColorScreen = new ColorScreenViewModel();
+   }
+   public ColorScreenViewModel ColorScreen { get; }*/
