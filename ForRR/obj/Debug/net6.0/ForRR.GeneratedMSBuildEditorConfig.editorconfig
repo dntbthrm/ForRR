@@ -51,6 +51,9 @@ build_metadata.AdditionalFiles.SourceItemGroup = AvaloniaXaml
 [/Users/tatiana/RiderProjects/ForRR/ForRR/Views/PagingView.axaml]
 build_metadata.AdditionalFiles.SourceItemGroup = AvaloniaXaml
 
+[/Users/tatiana/RiderProjects/ForRR/ForRR/Views/PhoneView.axaml]
+build_metadata.AdditionalFiles.SourceItemGroup = AvaloniaXaml
+
 [/Users/tatiana/RiderProjects/ForRR/ForRR/Views/PointDrawView.axaml]
 build_metadata.AdditionalFiles.SourceItemGroup = AvaloniaXaml
 

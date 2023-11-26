@@ -11,7 +11,7 @@
         x:DataType="vm:MainWindowViewModel"
         Icon="/Assets/avalonia-logo.ico"
         Title="ForRR">
-        <views:PagingView DataContext="{Binding Paging}"/>
+        <views:PhoneView DataContext="{Binding Phone}"/>
         
 </Window>
 
@@ -27,3 +27,4 @@
 <!-- <views:ImageLoaderView DataContext="{Binding ImageLoader}"/> это для чтения фотки по ссылки -->
 <!-- <views:ColorScreenView DataContext="{Binding ColorScreen}"/> это для покраски экрана-->
 <!-- <views:MoveItemsView DataContext="{Binding MoveItems}"/> для перемешения эл-тов списка-->
+<!-- <views:PagingView DataContext="{Binding Paging}"/> для страничек--> 

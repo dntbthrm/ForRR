@@ -9,9 +9,9 @@
              x:DataType="vm:ColorScreenViewModel">
     <DockPanel Background="{Binding ColorHex}">
         <StackPanel HorizontalAlignment="Center" VerticalAlignment="Center" >
-            <TextBox x:Name="RedBox" Text = "{Binding RedValue}"/>
-            <TextBox x:Name="GreenBox" Text = "{Binding GreenValue}"/>
-            <TextBox x:Name="BlueBox" Text = "{Binding BlueValue}"/>
+            <TextBox x:Name="RedBox" Text = "{Binding RedValue}" Watermark="Red"/>
+            <TextBox x:Name="GreenBox" Text = "{Binding GreenValue}" Watermark="Green"/>
+            <TextBox x:Name="BlueBox" Text = "{Binding BlueValue}" Watermark="Blue"/>
             <Button Content="Покрасить" Command="{Binding AddColor}"/>
         </StackPanel>
     </DockPanel>

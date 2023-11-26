@@ -6,9 +6,9 @@ namespace ForRR.ViewModels
     {
         public MainWindowViewModel()
         {
-            Paging = new PagingViewModel();
+            Phone = new PhoneViewModel();
         }
-        public PagingViewModel Paging { get; }
+        public PhoneViewModel Phone { get; }
     }
 }
 
@@ -113,3 +113,10 @@ namespace ForRR.ViewModels
    MoveItems = new MoveItemsViewModel();
    }
    public MoveItemsViewModel MoveItems { get; }*/
+
+// странички
+/* public MainWindowViewModel()
+   {
+   Paging = new PagingViewModel();
+   }
+   public PagingViewModel Paging { get; } */

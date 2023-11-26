@@ -6,9 +6,9 @@ namespace ForRR.ViewModels
 
     public class ColorScreenViewModel: ViewModelBase, INotifyPropertyChanged
     {
-        private string _redValue = "red";
-        private string _blueValue = "blue";
-        private string _greenValue = "green";
+        private string _redValue;
+        private string _blueValue;
+        private string _greenValue;
         private string _colorHex = "#FFFFFF";
 
         public string RedValue
