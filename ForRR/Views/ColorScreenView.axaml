@@ -1,0 +1,18 @@
+<UserControl xmlns="https://github.com/avaloniaui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             xmlns:vm="using:ForRR.ViewModels"
+             xmlns:sys="clr-namespace:System;assembly=System.Runtime"
+             mc:Ignorable="d" d:DesignWidth="800" d:DesignHeight="450"
+             x:Class="ForRR.Views.ColorScreenView"
+             x:DataType="vm:ColorScreenViewModel">
+    <DockPanel Background="{Binding ColorHex}">
+        <StackPanel HorizontalAlignment="Center" VerticalAlignment="Center" >
+            <TextBox x:Name="RedBox" Text = "{Binding RedValue}"/>
+            <TextBox x:Name="GreenBox" Text = "{Binding GreenValue}"/>
+            <TextBox x:Name="BlueBox" Text = "{Binding BlueValue}"/>
+            <Button Content="Покрасить" Command="{Binding AddColor}"/>
+        </StackPanel>
+    </DockPanel>
+</UserControl>

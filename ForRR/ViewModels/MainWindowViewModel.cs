@@ -6,9 +6,9 @@ namespace ForRR.ViewModels
     {
         public MainWindowViewModel()
         {
-            ImageLoader = new ImageLoaderViewModel();
+            ColorScreen = new ColorScreenViewModel();
         }
-        public ImageLoaderViewModel ImageLoader { get; }
+        public ColorScreenViewModel ColorScreen { get; }
     }
 }
 
@@ -92,3 +92,10 @@ namespace ForRR.ViewModels
    ImageReader = new ImageReaderViewModel();
    }
    public ImageReaderViewModel ImageReader { get; }*/
+   
+// загругка фотки из интернета
+/*public MainWindowViewModel()
+   {
+   ImageLoader = new ImageLoaderViewModel();
+   }
+   public ImageLoaderViewModel ImageLoader { get; }*/
