@@ -6,9 +6,9 @@ namespace ForRR.ViewModels
     {
         public MainWindowViewModel()
         {
-            Phone = new PhoneViewModel();
+            UserMessage = new UserMessageViewModel();
         }
-        public PhoneViewModel Phone { get; }
+        public UserMessageViewModel UserMessage { get; }
     }
 }
 
@@ -120,3 +120,17 @@ namespace ForRR.ViewModels
    Paging = new PagingViewModel();
    }
    public PagingViewModel Paging { get; } */
+   
+// номер телефона 
+/* public MainWindowViewModel()
+   {
+   Phone = new PhoneViewModel();
+   }
+   public PhoneViewModel Phone { get; }*/
+   
+// сообщения
+/*public MainWindowViewModel()
+   {
+   UserMessage = new UserMessageViewModel();
+   }
+   public UserMessageViewModel UserMessage { get; }*/

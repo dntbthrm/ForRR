@@ -63,5 +63,8 @@ build_metadata.AdditionalFiles.SourceItemGroup = AvaloniaXaml
 [/Users/tatiana/RiderProjects/ForRR/ForRR/Views/ToDoListView.axaml]
 build_metadata.AdditionalFiles.SourceItemGroup = AvaloniaXaml
 
+[/Users/tatiana/RiderProjects/ForRR/ForRR/Views/UserMessageView.axaml]
+build_metadata.AdditionalFiles.SourceItemGroup = AvaloniaXaml
+
 [/Users/tatiana/RiderProjects/ForRR/ForRR/Views/WordPartSearchView.axaml]
 build_metadata.AdditionalFiles.SourceItemGroup = AvaloniaXaml

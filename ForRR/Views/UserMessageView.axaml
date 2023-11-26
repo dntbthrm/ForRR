@@ -1,0 +1,26 @@
+<UserControl xmlns="https://github.com/avaloniaui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             xmlns:vm="using:ForRR.ViewModels" 
+             mc:Ignorable="d" d:DesignWidth="800" d:DesignHeight="450"
+             x:Class="ForRR.Views.UserMessageView"
+             x:DataType="vm:UserMessageViewModel">
+    <StackPanel>
+        <TextBox Watermark="Напишите сообщение" Text="{Binding InputVal}"/>
+        <Button Content="Отправить" Command="{Binding Send}"/>
+        <ListBox ItemsSource="{Binding MessageList}">
+            <ListBox.ItemTemplate>
+                <DataTemplate>
+                    <StackPanel Orientation="Horizontal">
+                        <Image Source="{Binding Photo}" Height="50" Width="50"/>
+                        <StackPanel>
+                            <TextBlock Text="{Binding Name}" Foreground="Indigo"/>
+                            <TextBlock Text="{Binding MessageText}"/>
+                        </StackPanel>
+                    </StackPanel>
+                </DataTemplate>
+            </ListBox.ItemTemplate>
+        </ListBox>
+    </StackPanel>
+</UserControl>
