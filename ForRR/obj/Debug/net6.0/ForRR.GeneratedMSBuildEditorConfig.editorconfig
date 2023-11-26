@@ -18,6 +18,9 @@ build_property.ProjectDir = /Users/tatiana/RiderProjects/ForRR/ForRR/
 [/Users/tatiana/RiderProjects/ForRR/ForRR/App.axaml]
 build_metadata.AdditionalFiles.SourceItemGroup = AvaloniaXaml
 
+[/Users/tatiana/RiderProjects/ForRR/ForRR/Views/AdditionView.axaml]
+build_metadata.AdditionalFiles.SourceItemGroup = AvaloniaXaml
+
 [/Users/tatiana/RiderProjects/ForRR/ForRR/Views/ClockView.axaml]
 build_metadata.AdditionalFiles.SourceItemGroup = AvaloniaXaml
 

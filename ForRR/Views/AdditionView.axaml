@@ -1,0 +1,15 @@
+<UserControl xmlns="https://github.com/avaloniaui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             xmlns:vm="using:ForRR.ViewModels" 
+             mc:Ignorable="d" d:DesignWidth="800" d:DesignHeight="450"
+             x:Class="ForRR.Views.AdditionView"
+             x:DataType="vm:AdditionViewModel">
+    <StackPanel>
+        <TextBox x:Name = "FirstNumber" Margin="5" Text = "{Binding FirstValue}"/>
+        <TextBox x:Name="SecondNumber" Margin="5" Text = "{Binding SecondValue}"/>
+        <Button Content="Результат" Command="{Binding GetAdditionResult}"/>
+        <TextBlock x:Name="Result" Margin="5" Text="{Binding Result}"/>
+    </StackPanel>
+</UserControl>

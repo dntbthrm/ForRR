@@ -6,9 +6,9 @@ namespace ForRR.ViewModels
     {
         public MainWindowViewModel()
         {
-            WordPart = new WordPartSearchViewModel();
+            Addition = new AdditionViewModel();
         }
-        public WordPartSearchViewModel WordPart { get; }
+        public AdditionViewModel Addition{ get; }
         
     }
 }
@@ -37,3 +37,14 @@ namespace ForRR.ViewModels
    Clock = new ClockViewModel();
    }
    public ClockViewModel Clock { get; }*/
+   
+//поиск слов
+/*public class MainWindowViewModel : ViewModelBase, INotifyPropertyChanged
+   {
+   public MainWindowViewModel()
+   {
+   WordPart = new WordPartSearchViewModel();
+   }
+   public WordPartSearchViewModel WordPart { get; }
+   
+   }*/
