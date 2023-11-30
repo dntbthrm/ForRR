@@ -4,11 +4,11 @@ namespace ForRR.ViewModels
 {
     public class MainWindowViewModel : ViewModelBase, INotifyPropertyChanged
     {
-        public MainWindowViewModel()
-        {
-            UserMessage = new UserMessageViewModel();
-        }
-        public UserMessageViewModel UserMessage { get; }
+       public MainWindowViewModel()
+       {
+          Clock = new ClockViewModel();
+       }
+       public ClockViewModel Clock { get; }
     }
 }
 
